@@ -1,0 +1,24 @@
+$fsize: 70px;
+
+@mixin shablonh1 {
+  color: red;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  :hover{
+    color: yellowgreen;
+  }
+  :active{
+    color: green;
+  }
+  
+} 
+
+h1 {
+  font-size: $fsize ;
+  color: wheat;
+  @include shablonh1
+}
+
+
+
+
+
